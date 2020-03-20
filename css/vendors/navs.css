@@ -31,8 +31,14 @@
 
 
 /* STart the media To upper_navbar */
+@media(min-width:100px){
+    .upper_nav p{   
+    font-size:11px;
+    white-space:nowrap
+ }
+}
 
-@media(max-width:900px)and (min-width:400px){
+@media(max-width:900px)and (min-width:100px){
     .upper_nav .container{
         display: flex;
         flex-direction:column;
@@ -46,7 +52,12 @@
          width:100%;
          justify-content: center;
      }
+     .upper_nav p{
+         white-space:nowrap
+     }
 }
+
+
 
 
 
@@ -159,7 +170,7 @@ transform: translateY(0px);
        font-size:18px;
     }
 }
-@media (max-width:900px) and (min-width:300px){
+@media (max-width:900px) and (min-width:100px){
     .main_nav .logo{
         width:20%; 
     }

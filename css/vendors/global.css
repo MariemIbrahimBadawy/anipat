@@ -49,6 +49,12 @@ h1{
     font-weight: 900;
 }
 
+@media(min-width:100px){
+    h1{   
+    font-size:20px;
+    white-space:nowrap
+ }
+}
 
 p.subtitle{
     color:var(--subtitleColor);
@@ -59,11 +65,24 @@ p.subtitle{
 h5{
     font-size: 23px;
 }
+@media(min-width:100px){
+    h5 , p{   
+    font-size:11px;
+    white-space:nowrap
+ }
+}
 
 
 h3 , span{
     color:var(--titleColor);
     font-size: 50px;
+}
+
+@media(min-width:100px){
+    h3 , span{   
+    font-size:20px;
+    white-space:nowrap
+ }
 }
 
 .cards p , .info-team p{
@@ -80,6 +99,7 @@ p{
     font-size: 18px;
     text-align: left;
 }
+
 
 h4{
     font-size: 22px;
@@ -117,7 +137,7 @@ footer .footer-social a{
     }
 }
 
-@media (max-width:890px) and (min-width: 300px){
+@media (max-width:890px) and (min-width: 100px){
 
     header h3 {
         font-size: 38px;
