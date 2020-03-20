@@ -1,0 +1,33 @@
+fa fa-facebook
+
+fa fa-pinterest-p
+
+fa fa-google-plus
+
+fa fa-linkedin
+
+ti-angle-down
+
+
+class="Flaticon flaticon-right"
+
+font header: poppins,sans-serif
+
+color to social media and footer:
+#c7c7c7
+
+
+Hover and Button color:#eb592d
+
+upper nav color:#212529
+
+nav_ color:#102955
+
+
+Title_ color:#191d34
+
+text_color:#909092
+
+befor and after text color:#979797
+
+footer color:#fff

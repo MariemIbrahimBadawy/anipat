@@ -1,0 +1,12 @@
+fa fa-facebook
+
+fa fa-pinterest-p
+
+fa fa-google-plus
+
+fa fa-linkedin
+
+ti-angle-down
+
+
+class="Flaticon flaticon-right"

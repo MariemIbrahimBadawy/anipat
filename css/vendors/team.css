@@ -1,0 +1,150 @@
+
+.team{
+    margin-top:100px;
+}
+
+.details_team{
+    margin-bottom:50px;
+}
+
+
+
+.team .container .card_team{
+    display: flex;
+}
+
+.team .container .card_team .one-person , .team .container .card_team .two-person ,
+.team .container .card_team  .three-person{
+    width: 100%;
+    height: 100%;
+    padding: 40px;
+}
+
+.team .container .card_team img{
+    width:100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.team .container .card_team .info-team{
+    background-color: white;
+    position: relative;
+    top:-30px;
+    bottom: 0;
+    padding:10px 0px;
+    border-radius: 8px;
+    box-shadow: var(--boxShadow);
+    width:90%;
+    margin: auto;
+    text-align: center;
+    cursor: pointer;
+    transform: translateY(13px);
+    transition: var(--anime);
+}
+
+.team .container .card_team .info-team:hover{
+    transform: translateY(0px);   
+    transition: var(--anime);
+}
+
+
+
+/* Content Team */
+
+div.contact_team{
+    background-image: url(../../photos/end.jpeg);
+    height: 100vh;
+    width:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 66px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+
+.contact_team h1{
+    padding:60px 0px;
+    text-align: center;
+    color:white;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.contact_team p{
+    text-align: center;
+    color:white;
+    line-height: 2;
+    padding: 0;
+}
+
+
+.info-contact{
+    display:flex;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 120px;
+
+}
+
+.info-contact p{
+    display: flex;
+    align-items: center;
+    padding: 34px 3px 0px 22px;
+    font-size: 18px;
+    color:white;
+    white-space: nowrap;
+}
+.info-contact p span{
+    color:white;
+    padding-right: 17px;
+    font-weight: 100;
+    white-space: nowrap;
+}
+
+.info-contact p span:last-child{
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+
+@media(max-width:900px)and (min-width:300px){
+    .team .container .card_team{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin: auto;
+    }
+
+    .team .container .card_team .img{
+        width:100%;
+        height: 100%;
+        background-size: cover;
+    }
+    
+.info-contact p{
+    display: flex;
+    align-items: center;
+    padding: 34px 3px 0px 22px;
+    font-size: 18px;
+    color:white;
+}
+.info-contact p span{
+    color:white;
+    padding-right: 17px;
+    font-weight: 100;
+}
+
+.info-contact p span:last-child{
+    color:white;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: initial;
+} 
+
+}

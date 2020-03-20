@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Poppins' ;
+}
+
+.container{
+    width:90%;
+    margin:auto;
+    text-align: center;
+}
+
+header h3 , h3 {
+    font-size: 50px;
+    font-weight: 100;
+    color:white;
+    text-align: left;
+    font-family: poppins,sans-serif;
+    
+}
+
+ header h3 span ,  span {
+    display: inline-block;
+    color:white;
+    font-weight: 900;
+
+    text-align: left;
+}
+
+
+ header p{
+    color:white;
+    text-align: left;
+    font-size: 24px;
+    padding: 15px 0px;
+    line-height: 2;
+    margin-bottom: 23px;
+}
+
+
+
+h1{
+    color:var(--titleColor);
+    font-size: 50px;
+    font-weight: 900;
+}
+
+
+p.subtitle{
+    color:var(--subtitleColor);
+    text-align: center;
+}
+
+
+h5{
+    font-size: 23px;
+}
+
+
+h3 , span{
+    color:var(--titleColor);
+    font-size: 50px;
+}
+
+.cards p , .info-team p{
+    color:var(--contentTextColor);
+    text-align: center;
+    padding:0px 40px;
+}
+.info-team p{
+    white-space: nowrap;
+}
+
+p{
+    color:var(--textColor);
+    font-size: 18px;
+    text-align: left;
+}
+
+h4{
+    font-size: 22px;
+    white-space: nowrap;
+
+}
+
+
+.upper_nav .upper_nav_social-media , 
+footer .footer-social{
+    width:50%;
+    display: inline-flex;
+    justify-content: flex-end;
+}
+.upper_nav .upper_nav_social-media a ,
+footer .footer-social a{
+    padding-right:40px;
+    cursor: pointer;
+    font-size: 18px;
+    color:#c7c7c7;
+}
+.upper_nav .upper_nav_social-media a:hover ,  footer .footer-social a:hover{
+    color:var(--secendColor);
+    transition: var(--anime);
+
+}
+
+/* STart the media to titles */
+@media(max-width:1500px)and (min-width:400px){
+    h3 , span{
+        font-size: 50px;
+    }
+    p span {
+        font-size: 24px;
+    }
+}
+
+@media (max-width:890px) and (min-width: 300px){
+
+    header h3 {
+        font-size: 38px;
+    }
+
+    header h3 span{
+        font-size:50px
+    }
+
+    h1{
+        font-size: 37px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+
+    h3{
+        font-size: 26px;
+    }
+
+    h3 span{
+        font-size: 25px;
+        padding-bottom: 30px;
+     }
+}

@@ -1,0 +1,45 @@
+header{
+    width:100%;
+    background-image: url(../../photos/header.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 50px;
+}
+
+header .container{
+    display:flex;
+}
+
+.details_header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.dog_header{
+    display: flex;
+    align-items: flex-end;
+}
+header img{
+    width: 100%;
+    background-size: cover;
+    position: relative;
+    top: 110px;
+}
+
+
+
+@media (max-width:1000px) and (min-width:300px){
+
+    .details_header{
+        margin: 58px 45px auto;
+
+    }
+        
+    header img{
+        display: none;
+    }
+
+}
+

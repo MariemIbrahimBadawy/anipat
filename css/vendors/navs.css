@@ -1,0 +1,227 @@
+/* sTart the Upper_nav */
+
+.upper_nav{
+    background-color:black;
+    padding:20px 0px;
+}
+
+.upper_nav .container{
+    display:flex;
+    align-items: baseline;
+    margin: 0 auto;
+}
+.upper_nav .upper_nav_details{
+    width:50%;
+    display: flex;
+}
+
+.upper_nav .upper_nav_details p{
+    color:#fff;
+    font-weight: 700;
+    cursor: pointer;
+    font-size:15px;
+    padding: 0;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.upper_nav .upper_nav_details p:first-child{
+    padding-right: 56px;
+}
+
+
+/* STart the media To upper_navbar */
+
+@media(max-width:900px)and (min-width:400px){
+    .upper_nav .container{
+        display: flex;
+        flex-direction:column;
+    }
+    .upper_nav .upper_nav_details {
+        width:100%;
+        justify-content: center;
+     }
+
+     .upper_nav .upper_nav_social-media {
+         width:100%;
+         justify-content: center;
+     }
+}
+
+
+
+
+/* STart the  Navbar */
+.main_nav{
+   background-color: white;
+   z-index: 2;
+   position: sticky;
+   top:0;
+   box-shadow: var(--boxShadow);
+   opacity: .9;
+}
+
+.toggler{
+   text-align: right;
+   font-size:30px;
+   display: none;
+   z-index: 1;
+   padding: 35px 25px;
+
+}
+
+.flex_nav{
+    display: flex;
+}
+
+.main_nav .logo{
+    width:20%;
+}
+
+.main_nav .logo img{
+    position: relative;
+    top:40px;
+}
+
+.main_nav .links{
+    width:80%;
+    display: flex;
+    justify-content: flex-end;
+    color:var(--primaryColor);
+}
+
+.main_nav .links ul {
+    display: inline-flex;
+}
+
+.main_nav .links ul li{
+    position: relative;
+    list-style: none;
+    padding: 40px 50px 40px 0px;
+    font-size:22px;
+    cursor: pointer;
+}
+.main_nav .links ul li .fontSize{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+}
+
+.main_nav .links ul li:hover{
+    color:var(--secendColor);
+    transition: all .5s ease-in-out;
+}
+
+.main_nav .links .dropdown{
+    position: absolute;
+    top:105px;
+    background-color: white;
+    transform: translateY(18px);
+}
+.main_nav .links .dropdown ul{
+    display: flex;
+    flex-direction: column;
+    color:var(--primaryColor);
+}
+
+.main_nav .links .dropdown ul li{
+    padding: 14px 49px 14px 19px; 
+    display: none;
+    transform: translateX(10px);
+    transition: all 1s linear;
+    text-align: left;
+    font-size: 19px;
+    white-space: nowrap;
+}
+
+
+.main_nav .dropdown ul li:hover{
+    color:var(--secendColor);
+    transition: all .5s ease-in-out;
+}
+
+.main_nav .links ul li:hover .dropdown {
+  
+transition: all 0.5s ease-in-out;
+transform: translateY(0px);
+}
+.main_nav .links ul li:hover .dropdown ul li {
+    display: block;
+  
+}
+
+
+
+/* STart the media to navbar */
+@media (max-width:1200px){
+    .main_nav .container .links ul li{
+        padding: 40px 20px 40px 0px;
+       font-size:18px;
+    }
+}
+@media (max-width:900px) and (min-width:300px){
+    .main_nav .logo{
+        width:20%; 
+    }
+
+    .toggler{
+        display: inline-flex;
+        position: sticky;
+        cursor: pointer;
+        width:80%;
+        justify-content: flex-end;
+    }
+
+
+    .active{
+        display: block;
+    }
+
+    .main_nav .container .links{
+        display: block;
+        width:95%;
+        position: absolute;
+        top: 111px;
+        right: 0;
+        background-color: white;
+        z-index: 2;
+    
+    } 
+
+  .main_nav .container .links .ul{
+      display:flex;
+      flex-direction: column;
+      text-align: center;
+  }
+  .main_nav .container .links ul li{
+      padding:5px 10px;
+      text-align: left;
+      display: none;
+  }  
+  
+  .main_nav .container .links .dropdown{
+      position: relative;
+      top:-40px;
+      left:100px;
+    }
+
+    .main_nav .links ul li:checked
+    .dropdown ul li {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        color:rebeccapurple;
+        transition: all 1s linear;
+    }
+
+    .links ul li .fontSize{
+        display: none;
+    }
+
+    .links ul li.plus::before{
+        content:'+';
+    }
+
+   
+      
+  }

@@ -1,0 +1,78 @@
+:root{
+    --primaryColor:#102955;
+    --secendColor:#eb592d;
+    --titleColor:#191d34;
+    --subtitleColor:#909092;
+    --textColor:#66666f;
+    --contentTextColor:#979797;
+    --boxShadow:  4px 16px 35px 0 rgba(0,0,2,.08);
+
+    --anime:all .5s ease-in-out;
+}
+
+
+/* STart btn to header and Team Section */
+.btn-white{
+    display: inline-block;
+    text-align: center;
+    background-color: white;
+    color:var(--secendColor);
+    font-weight: bold;
+    font-size:25px;
+    border: none;
+    padding: 22px 50px;
+    border-radius: 35px;
+    cursor: pointer;
+}
+
+.btn-white:hover{
+background-color: #ff3500;
+color:white;
+
+}
+
+header .btn-white{
+    padding: 18px 54px;
+    width: min-content;
+    white-space: nowrap;
+}
+/* STart btn to all page  */
+
+a {
+    text-decoration: none;
+}
+
+a button{
+    display: flex;
+    justify-self: self-start;
+    margin-top:30px;
+    background-color: var(--secendColor);
+    color:white;
+    font-weight: bold;
+    font-size:25px;
+    border: none;
+    padding: 25px 60px;
+    border-radius: 41px;
+    white-space: nowrap;
+    cursor: pointer;
+}
+
+ a button:hover{
+    opacity: .9;
+    transition: var(--anime);
+}
+
+
+
+
+/* STart the media To the btn */
+
+@media(max-width:700px)and (min-width:300px){
+    .btn-white{
+        display: block;
+        padding: 22px 25px;
+        border-radius: 35px;
+    
+    }
+
+}

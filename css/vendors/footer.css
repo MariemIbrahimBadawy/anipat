@@ -1,0 +1,86 @@
+footer{
+    background-color: #f8f8f8;
+    padding:80px 0px;
+}
+
+.flex_footer{
+    display:flex;
+    justify-content: space-around;
+    text-align: left;
+
+}
+
+footer h4{
+    padding: 20px 0px;
+    color:#2e2e2e;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+ footer p{
+    color: #7a7a7a;
+    font-size: 18px;
+    line-height: 2.6;
+}
+
+
+footer .flex_footer p:hover{
+    color:var(--secendColor);
+    transition: var(--anime);
+    cursor: pointer;
+}
+
+
+.address-footer img{
+    padding:30px 0px;
+}
+
+footer .address-footer .social-footer{
+    display: flex;
+    padding: 29px 0px;
+}
+
+footer .address-footer .social-footer a{
+    padding-right: 40px;
+    font-size: 24px;
+
+}
+
+footer .address-footer .social-footer a:hover{
+    color:vat(--secendColor);
+    transition: var(--anime);
+    cursor: pointer;
+}
+
+
+hr{
+    border-top:1px solid #e0e0e0;
+    margin-top: 60px;
+    margin-bottom: 20px;
+}
+
+
+footer span{
+    color:var(--secendColor);
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+
+/* STart the media To the Footer */
+
+@media (max-width:1200px) and (min-width:300px){
+     .flex_footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+
+
+
+
+
+
