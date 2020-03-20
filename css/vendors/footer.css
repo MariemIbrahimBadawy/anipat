@@ -70,7 +70,7 @@ footer span{
 
 /* STart the media To the Footer */
 
-@media (max-width:1200px) and (min-width:300px){
+@media (max-width:1200px) and (min-width:100px){
      .flex_footer{
         display: flex;
         flex-direction: column;

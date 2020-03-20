@@ -43,7 +43,7 @@
 }
 
 
-@media(max-width:1000px)and (min-width:400px){
+@media(max-width:1000px)and (min-width:100px){
     .services .container .details{
         width: 100%;
         margin: auto;
@@ -178,8 +178,15 @@ section.services .services_pet-care{
 }
 
 
-
-@media(max-width:1000px)and (min-width:400px){
+@media(min-width:100px){
+    .container-owl{
+        max-width: 100px;
+    }
+    .details-owl h4, h6, p{
+        font-size:11px;
+    }
+}
+@media(max-width:1000px)and (min-width:100px){
     .services_pet-care 
     , .services_help {
         display: flex;
@@ -197,6 +204,9 @@ section.services .services_pet-care{
     }
     .container-owl{
         max-width: 490px;
+    }
+    .details-owl h4, h6, p{
+        font-size:11px;
     }
 }
 

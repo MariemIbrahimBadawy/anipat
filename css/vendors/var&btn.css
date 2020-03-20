@@ -62,17 +62,10 @@ a button{
     transition: var(--anime);
 }
 
-
-
-
-/* STart the media To the btn */
-
-@media(max-width:700px)and (min-width:300px){
-    .btn-white{
-        display: block;
-        padding: 22px 25px;
-        border-radius: 35px;
-    
+@media(min-width:100px){
+    button{
+        padding:15px 20px ;
     }
-
 }
+
+

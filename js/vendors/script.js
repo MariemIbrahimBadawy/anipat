@@ -26,7 +26,7 @@ $(document).ready(function() {
           0:{
               items:1
           },
-          300:{
+          100:{
               items:1
           },
           700:{

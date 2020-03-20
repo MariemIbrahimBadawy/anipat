@@ -164,13 +164,7 @@ transform: translateY(0px);
 
 
 /* STart the media to navbar */
-@media (max-width:1200px){
-    .main_nav .container .links ul li{
-        padding: 40px 20px 40px 0px;
-       font-size:18px;
-    }
-}
-@media (max-width:900px) and (min-width:100px){
+@media (max-width:1090px) and (min-width:100px){
     .main_nav .logo{
         width:20%; 
     }

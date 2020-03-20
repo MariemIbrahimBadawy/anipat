@@ -34,7 +34,7 @@
     padding:10px 0px;
     border-radius: 8px;
     box-shadow: var(--boxShadow);
-    width:90%;
+    width:55%;
     margin: auto;
     text-align: center;
     cursor: pointer;
@@ -111,9 +111,13 @@ div.contact_team{
     cursor: pointer;
 }
 
+.info-team p{
+    padding:0;
+}
 
 
-@media(max-width:900px)and (min-width:300px){
+
+@media(max-width:900px)and (min-width:100px){
     .team .container .card_team{
         display: flex;
         flex-direction: column;
@@ -125,6 +129,12 @@ div.contact_team{
         width:100%;
         height: 100%;
         background-size: cover;
+    }
+
+    .info-contact {
+        display:flex;
+        flex-direction: column
+        ;
     }
     
 .info-contact p{
@@ -146,5 +156,8 @@ div.contact_team{
     cursor: pointer;
     font-size: initial;
 } 
+.contact_team h1{
+    font-size:30px;
+}
 
 }
