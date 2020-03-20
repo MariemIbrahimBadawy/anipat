@@ -103,6 +103,18 @@ h4{
 }
 
 
+@media(min-width:100px){
+    h4{
+        font-size:12px;
+    }
+
+
+.info-team p{
+    padding:8px;
+ }
+}
+
+
 .upper_nav .upper_nav_social-media , 
 footer .footer-social{
     width:50%;
